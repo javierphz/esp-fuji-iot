@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# ESP-01
+#
+DEF ESP-01 U 0 40 Y Y 1 L N
+F0 "U" -250 325 50 H V L BNN
+F1 "ESP-01" 0 0 50 H I L BNN
+F2 "ESP-01" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+DRAW
+S -250 -200 350 300 0 0 16 f
+X RX 1 -500 200 200 R 40 40 0 0 B 
+X IO0 3 -500 100 200 R 40 40 0 0 B 
+X IO2 5 -500 0 200 R 40 40 0 0 B 
+X GND 7 -500 -100 200 R 40 40 0 0 B 
+X VCC 2 600 200 200 L 40 40 0 0 B 
+X RST 4 600 100 200 L 40 40 0 0 B 
+X CH_PD 6 600 0 200 L 40 40 0 0 B 
+X TX 8 600 -100 200 L 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "mic5209-3.3ys")(type "Legacy")(uri "${KIPRJMOD}/mic5209-3.3ys.lib")(options "")(descr ""))
+  (lib (name "ESP-01")(type "Legacy")(uri "${KIPRJMOD}/ESP-01.lib")(options "")(descr ""))
+  (lib (name "691214110003")(type "Legacy")(uri "${KIPRJMOD}/691214110003.lib")(options "")(descr ""))
+)
